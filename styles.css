@@ -1,0 +1,258 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a vibrant background color and text styles to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffc107;
+    margin: 0;
+    padding: 0;
+    color: #543c17;
+}
+
+/* Style the header, navigation, and main content area */
+header {
+    background-color: #543c17;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the product features and contact form sections */
+.product-features, .contact-us {
+    margin-bottom: 30px;
+}
+
+.product-features h2, .contact-us h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Style the form elements */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffc107;
+    color: #543c17;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffdb58;
+}
+
+/* Style the footer */
+footer {
+    background-color: #543c17;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #ffc107;
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-heading {
+    animation: fadeIn 1s;
+}
+
+.animated-text {
+    animation: fadeIn 1s 0.5s;
+}
+
+.animated-list {
+    animation: fadeIn 1s 1s;
+}
+
+.animated-button {
+    animation: fadeIn 1s 1.5s;
+}
+
+.animated-footer {
+    animation: fadeIn 1s 2s;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a vibrant background color and text styles to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffc107;
+    margin: 0;
+    padding: 0;
+    color: #543c17;
+}
+
+/* Style the header, navigation, and main content area */
+header {
+    background-color: #543c17;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the product features and contact form sections */
+.product-features, .contact-us {
+    margin-bottom: 30px;
+}
+
+.product-features h2, .contact-us h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Style the form elements */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffc107;
+    color: #543c17;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffdb58;
+}
+
+/* Style the footer */
+footer {
+    background-color: #543c17;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #ffc107;
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-heading {
+    animation: fadeIn 1s;
+}
+
+.animated-text {
+    animation: fadeIn 1s 0.5s;
+}
+
+.animated-list {
+    animation: fadeIn 1s 1s;
+}
+
+.animated-button {
+    animation: fadeIn 1s 1.5s;
+}
+
+.animated-footer {
+    animation: fadeIn 1s 2s;
+}
